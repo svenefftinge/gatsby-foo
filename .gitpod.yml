@@ -6,6 +6,6 @@ ports:
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - init: |
-      git log > git.txt
+      git log >> git.txt
       yarn install
     command: yarn dev
